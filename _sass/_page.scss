@@ -172,3 +172,11 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+img+em, .figure-caption {
+  font-size: vars.$type-size-5;
+  font-style: normal;
+  display: block;
+  text-align: left;
+  margin-top: -1rem;
+}
